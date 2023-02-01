@@ -59,11 +59,11 @@ class Main3{
 //Palindrome Program
 class Main{ 
   public static void main(String args[]){
-     boolean check=palindrome("");
+     boolean check=palindrome("sitonapanotis");
      System.out.println(check);
-     check=palindrome("");
+     check=palindrome("nine");
      System.out.println(check);
-     check=palindrome("");
+     check=palindrome("amanaplanacanalpanama");
      System.out.println(check);
      }
 public static int palindrome(String s){
